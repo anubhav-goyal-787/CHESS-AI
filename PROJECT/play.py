@@ -232,7 +232,7 @@ app = Flask(__name__)
 # Introduction lines
 def lines():
     speak(
-        "Hello, my name is number 0613010517,. that's right it is the name my creator gave to me. I will be guiding you through out your experience through this game. So without wasting any time Welcome to the Chess World. Enjoy your game. Hope you have fun.")
+        "Hello, my name is DEV Zero,. that's right it is the name my creator gave to me. I will be guiding you through out your experience through this game. So without wasting any time Welcome to the Chess World. Enjoy your game. Hope you have fun.")
 
 
 # Front Page of the Flask Web Page
@@ -340,7 +340,7 @@ def undo():
 @app.route("/cred/", methods=['POST'])
 def cred():
     speak(
-        "This game was developed by Master Ansh Yogesh Gaikwad, a F.Y. student studying in Vishwakarma Institute of Technology and his Team before the quarantine of the year 2020. He would like to thank his mentor Neelam Upasni Maam and his group members Arshad Patel, Prashanth Bijamwar, Sarvesh Patil and Nisha Modani. He quotes 'Thank you, it wasn't possible without you guys.'")
+        "This game was developed by Master Anubhav Goyal, a NIT kurukshetra student in the year 2021.'")
     return main()
 
 
